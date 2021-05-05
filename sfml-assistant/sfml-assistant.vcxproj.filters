@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\assistant">
+      <UniqueIdentifier>{de37464b-fbee-46db-9ec2-18619411e643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\assistant\gui">
+      <UniqueIdentifier>{4dbde1ac-3264-4f5d-8e44-3681439ea137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\assistant\gui\utility">
+      <UniqueIdentifier>{6a033175-f731-48a8-9037-bc67cd55aa78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assistant">
+      <UniqueIdentifier>{90f630e5-e07c-4251-8498-ebfb3e9d81c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assistant\gui">
+      <UniqueIdentifier>{8739df4a-e462-4e65-9b12-524556bb8061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assistant\gui\utility">
+      <UniqueIdentifier>{efd59ead-44e2-4c92-8f0a-867c2ff77675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assistant\ai">
+      <UniqueIdentifier>{4ca6cc0e-9fa4-431a-b214-b52ee6d93021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\assistant\ai">
+      <UniqueIdentifier>{82362128-f783-4bf9-a181-a4e15867f86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assistant\ai\modules">
+      <UniqueIdentifier>{435c709a-83fe-4345-afa8-6ab8549a3a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\assistant\ai\modules">
+      <UniqueIdentifier>{f5afaf4b-00ea-43e3-aac1-4f96e0b4d964}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>Source Files\assistant\gui\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="chatbox.cpp">
+      <Filter>Source Files\assistant\gui\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files\assistant\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="assistant.cpp">
+      <Filter>Source Files\assistant</Filter>
+    </ClCompile>
+    <ClCompile Include="ai.cpp">
+      <Filter>Source Files\assistant\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks.cpp">
+      <Filter>Source Files\assistant\gui\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="sfml-assistant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="start_module.cpp">
+      <Filter>Source Files\assistant\ai\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="unclear_question_module.cpp">
+      <Filter>Source Files\assistant\ai\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="open_module.cpp">
+      <Filter>Source Files\assistant\ai\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_module.cpp">
+      <Filter>Source Files\assistant\ai\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="exit_module.cpp">
+      <Filter>Source Files\assistant\ai\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="search_module.cpp">
+      <Filter>Source Files\assistant\ai\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="weather_module.cpp">
+      <Filter>Source Files\assistant\ai\modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="assistant.hpp">
+      <Filter>Header Files\assistant</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.hpp">
+      <Filter>Header Files\assistant\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="chatbox.hpp">
+      <Filter>Header Files\assistant\gui\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="message.hpp">
+      <Filter>Header Files\assistant\gui\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ai.hpp">
+      <Filter>Header Files\assistant\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.hpp">
+      <Filter>Header Files\assistant\gui\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="module.hpp">
+      <Filter>Header Files\assistant\ai\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="start_module.hpp">
+      <Filter>Header Files\assistant\ai\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="unclear_question_module.hpp">
+      <Filter>Header Files\assistant\ai\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="open_module.hpp">
+      <Filter>Header Files\assistant\ai\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="hello_module.hpp">
+      <Filter>Header Files\assistant\ai\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="exit_module.hpp">
+      <Filter>Header Files\assistant\ai\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="search_module.hpp">
+      <Filter>Header Files\assistant\ai\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="weather_module.hpp">
+      <Filter>Header Files\assistant\ai\modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
